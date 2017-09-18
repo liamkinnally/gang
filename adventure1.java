@@ -18,7 +18,11 @@ import java.awt.Color;
 		}
 		
 		public void paint(Graphics g) {
-		
+			g.setColor(Color.white);
+			g.drawString("Welcome young 'adventurer'...", 25, 50);
+			g.drawString("You are sailing down a wild and dangerous river in the Congo.", 25, 175);
+			g.drawString("There is a $4.6 million dollar crate of ivory waiting for you.", 25, 200);
+			g.drawString("Let's get busy. (click anywhere to continue)", 25, 225);
 		}
 
 		@Override
